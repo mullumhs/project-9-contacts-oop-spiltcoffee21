@@ -13,6 +13,7 @@ class Car:
         self.color = color
         self.brand = brand
         self.is_engine_on = False
+        self.odometer = 0
 
     def start_engine(self):
         self.is_engine_on = True
@@ -28,7 +29,9 @@ class Car:
 
 
 
+
 # Create two Car objects. One should be a red Toyota and the other a blue Ford.
+car1 =  
 
 
 
