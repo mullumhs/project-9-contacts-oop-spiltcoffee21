@@ -20,22 +20,23 @@ class Contact:
         self.name = name
         self.phone_number = phone_number
         self.email = email
-        contact.number_of_contact += 1
+        Contact.number_of_contact += 1
 
-def check_email(self):
-    if "@" in self.email:
-        print("yes")
-        return True
-    else:
-        print("no")
-        return True
+    def check_email(self):
+        if "@" in self.email:
+            print("yes")
+            return True
+        else:
+            print("no")
+            return True
 
 @classmethod
-def ge
+def get_contact_count(cls):
+        
+    return Contact.number_of_contact 
 
 
 contact1 = Contact("remy", "04568239454", "remy.ross.morrow@gmail.com")
 contact2 = Contact("rocco jr", "045738274", "rocco.jr@gmail.com")
 
-__init
-check_email()
+contact1.check_email()
